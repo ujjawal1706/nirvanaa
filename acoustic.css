@@ -1,0 +1,74 @@
+@media screen and (min-width:340px) 
+{
+.bg{
+	background-image: linear-gradient(darkslategray ,black);
+}
+.fa{
+	margin-top: 10px;
+	float: right;
+	margin-right: 10px;
+	background-color: transparent;
+	box-shadow: 10px;
+	cursor: pointer;
+}
+.fa2
+{
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+	text-decoration: none;
+	background-color: transparent;
+	box-shadow: 10px;
+	color: #202020;
+}
+.fa2:hover
+{
+	color: white;
+	text-decoration: none;
+}
+
+.head
+{
+	font-family: "Fondamento";
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	font-size: 1.5em;
+	display: inline block;
+	padding-top: 100px;
+	padding-bottom: 5px;
+	text-align: center;
+	color: white;
+	box-shadow: 10px transparent;
+	
+}
+.tiles
+{
+	background-color: black;
+}
+.list
+{
+	padding: 10px;
+	font-family: "Oswald";
+	letter-spacing: 0.1em;
+	list-style: none;
+	margin-left: 5px;
+}
+
+.fa3{
+	color: #202020;
+	text-decoration: none;
+	
+	margin-top: 0px;
+
+}
+.fa3:hover
+{
+	text-decoration: none;
+	color: white;
+}
+.f4
+{
+	float: right;
+	margin-top: 0px;
+}
+}

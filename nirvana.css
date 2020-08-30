@@ -1,0 +1,123 @@
+@media screen and (min-width:340px) 
+{
+
+body{
+	/* background-image: url("bg2.jpg");
+	     background-size: cover;covers the screen of the device
+	     background-attachment: fixed;
+	     background-repeat: no-repeat;
+	     background-position: center;
+	     overflow-x: hidden; */ 
+	    
+}
+.navbar-brand{
+	font-family: "Fondamento";
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	
+}
+.nav
+{
+	font-family:  Montserrat, sans-serif;
+	letter-spacing: 0.1em;
+
+}
+.carousel-inner{
+	border: 2px solid teal;
+    overflow: hidden;
+    margin: 0px auto;
+    display: inline-block;
+}
+.icon-bar{
+	background-color: teal;
+	overflow: hidden;
+}
+#home
+{
+	background-color: transparent;
+	align-content: center;
+	text-align: center;
+	letter-spacing: 0.1em;
+	font-family: "Oswald";
+	color: white;
+	width: 90%;
+	padding: 10px;
+	margin: 0px auto;
+	border-left: 3px solid teal;
+	animation: animated-text 2s ease-in;
+
+}
+@keyframes animated-text{
+  from
+  {
+  	left:  0px;
+  	opacity: 0;
+  }
+  to
+  {
+  	left: auto;
+  	opacity: 1;}
+}
+
+#genre{
+	margin-left: 13px;
+	font-family: "Oswald";
+	
+	color: teal;
+}
+.gen{
+	
+	align-content: center;
+	display: inline-block;
+	border: 3px solid black;
+	border-radius: 8px;
+}
+.gen1
+{
+	align-content: center;
+	display: inline-block;
+	border: 2px solid teal;
+	border-radius: 8px;
+}
+.gen1:hover, .gen:hover{
+	transform: scale(1.1);
+}
+
+#about
+{
+	background-color: #033 ;
+	border-top: 1px white solid;
+
+}
+.textab{
+	background-color: transparent;
+	align-content: center;
+	text-align: center;
+	font-family: "Oswald";
+	color: white;
+	letter-spacing: 0.1em;
+	width: 90%;
+	padding: 10px;
+	margin: 0px auto;
+	border-left: 3px solid teal;
+
+}
+.imab
+{
+	border-radius: 70%;
+	padding:10px;
+	margin: auto;
+	display: block;
+	border: 4px white;
+}
+.logo{
+	width: 6%;
+	display: inline;
+}
+ul {
+text-align: center;
+}
+
+li {
+display: inline-block;
+}
